@@ -37,6 +37,4 @@ class TwoTowerModel(nn.Module):
         out = torch.dot(x1, x2)
 
         return out
-    
-    def init_weights(m):
         
